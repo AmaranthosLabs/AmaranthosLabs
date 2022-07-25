@@ -1,8 +1,9 @@
 # Amaranthos Labs
 
-# cim
 
-## Composable Information Machine
+
+
+# cim - Composable Information Machine
 
 A fractal, distributed, knowledge encapsulation system based on functional reactive programming and event sourcing.
 
