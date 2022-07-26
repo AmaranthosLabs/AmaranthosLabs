@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme 
 title: Amaranthos Labs
 description: [Immutability in Perpetuity]
+logo: img/amaranthos.png

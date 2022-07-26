@@ -6,26 +6,17 @@ A `Composable Information Machine` encapsulates information in such a way that w
 
 Absolutely everything looks like a variation of:
 
-```mermaid
-stateDiagram-v2
-  direction LR
-    *nothing --> A
-    A --> B
-    B --> A
-    B --> C
-    C --> [*]
-    C --> A 
-    C --> B       
-```
+![cimState](../img/cimState.png)
 
 > A is a Type or structure
-> -> is a morphism,
+>  -> is a morphism,
 > B is a different Type
 > C is a different Type
-> the Arrows are operations and flow
-> there is always a feedback and identity mechanism
 
-With this set of definitions we form `Categories`, and `sets of Types with direction` (a.k.a topologies) in `measurable environments` (a.k.a. metric spaces) for our information machines.
+> Arrows are operations and flow
+> There is always a feedback and identity mechanism
+
+With this set of definitions we form [Categories], and [sets of Types with direction](topologies.md) in `measurable environments` (a.k.a. metric spaces) for our information machines.
 
 This is similar to a cononical messaging model, but has a level of abstraction that is quite different.
 

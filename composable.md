@@ -44,15 +44,7 @@ We need to cover structure, construction, types, power, networking, people, hard
 
 ### Composable Information Machine
 
-```mermaid
-stateDiagram-v2
-    state has_def <<choice>>
-    [*] --> Defined
-    Defined --> has_def
-    has_def --> False: if defs <= 0
-    has_def --> True : if defs > 0 
-    True --> [*]
-```
+![cimTruth](img/cimState.png)
 
 We define an inventory system which, in turn, defines the informational limits and boundaries. We will combine many well-known services, yet see them as related and usable in very specific ways.
 
@@ -116,4 +108,3 @@ We require the following in order to do so:
         * What if it does this
 
 Next we will dive into how each one of these is implemented and build a working system.
-
