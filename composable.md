@@ -1,8 +1,8 @@
 # cim - Composable Information Machine
 
-A distributed knowledge encapsulation system based on functional reactive programming and event sourcing.
+A distributed knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
 
-`Composable infrastructure` makes data center resources readily available like cloud services and is foundational for solutions in private and hybrid clouds. We incorporate this and relate information into a seamless distributed solution.
+Composable infrastructure makes data center resources readily available like cloud services and is foundational for solutions in private and hybrid clouds. We incorporate this and categorically relate information into a seamless distributed solution.
 
 We work with enormous amounts of information which continues to grow at exponential rates. From 2020 to 2025 it will grow from [64 to 180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/). We have access to [exabytes](https://www.backblaze.com/blog/what-is-an-exabyte/) of information from all over the universe at our fingertips.
 
