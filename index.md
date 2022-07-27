@@ -16,7 +16,7 @@
 * Can it interact with other information?
 * Can it help you make decisions quickly?
   
-These are just some of the questions we endeavor to answer with:
+We answer these questions with:
 
 > ## [The Composable Information Machine](composable.md)
 
