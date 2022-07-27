@@ -8,14 +8,16 @@
 * Can it recover from disasters?
 * Can it be shared?
 * Can you relate it to metadata?
-* Can it grow with me over time?
+* Can it grow with you over time? Even decades?
 * Is it safe?
+* Is it secure?
 * Is it mined?
+* Is it hacked?
 * Can it interact with other information?
 * Can it help you make decisions quickly?
   
 These are just some of the questions we endeavor to answer.
 
-## Introducing the [Composable Information Machine](composable.md)
+## The [Composable Information Machine](composable.md)
 
-A distributed knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
+A [distributed](https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html) knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
