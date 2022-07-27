@@ -16,8 +16,10 @@
 * Can it interact with other information?
 * Can it help you make decisions quickly?
   
-These are just some of the questions we endeavor to answer.
+These are just some of the questions we endeavor to answer with:
 
-## The [Composable Information Machine](composable.md)
+<div style="text-align: center;">
+<h2><a href="composable.md">The Composable Information Machine</a></h2>
+</div>
 
 A [distributed](https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html) knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
