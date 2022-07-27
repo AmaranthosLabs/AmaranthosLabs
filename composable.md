@@ -64,31 +64,31 @@ We are building a [Composable Information Machine](doc/cim.md)
 We require the following in order to do so:
 
    1. Definition and Design
-      * Structure [Type System](http://lucacardelli.name/Papers/TypeSystems.pdf)
-      * Mapping and flow [FRP](http://neilsculthorpe.com/publications/safe-efficient-FRP.pdf)
-      * documentation [NetBox](https://docs.netbox.dev/en/stable/) and [git](https://git-scm.com)
-      * Content-Addressing [IPLD](https://ipld.io)
+      * Structure - [Type System](http://lucacardelli.name/Papers/TypeSystems.pdf)
+      * Mapping and flow - [FRP](http://neilsculthorpe.com/publications/safe-efficient-FRP.pdf)
+      * documentation - [NetBox](https://docs.netbox.dev/en/stable/) and [git](https://git-scm.com)
+      * Content-Addressing - [IPLD](https://ipld.io)
    2. Software Defined Network
       * relationships of compute resources
       * [IPAM](https://www.infoblox.com/glossary/ipam-ip-address-management/), [VLAN](https://www.guru99.com/vlan-definition-types-advantages.html), [DNS](https://www.cloudflare.com/learning/dns/what-is-dns/), [DHCP](https://www.lifewire.com/what-is-dhcp-2625848), [VPN](https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html)
-      * inventory [NetBox](https://docs.netbox.dev/en/stable/)
+      * Inventory - [NetBox](https://docs.netbox.dev/en/stable/)
    3. Power
-      * providers
-      * sources and capabilities
+      * Providers
+      * Sources and capabilities
    4. Computing Devices
-      * hardware and identification
-      * virtual network endpoints  
+      * Hardware and identification
+      * Virtual network endpoints  
    5. Definition of components
-      * what makes up a device
-      * setting limits and boundaries for spaces
-      * continuous integration and deployment
+      * What makes up a device
+      * Setting limits and boundaries for spaces
+      * Continuous integration and deployment
    6. Secure communication capability
-      * channel between nodes
-      * command and control separation
-      * Identity and Access Management
+      * Channel between nodes
+      * Command and control separation
+      * [Identity and Access Management](https://webofidentity.com/blog/self-sovereign-digital-identity/)
    7. Persistance
-      * Command, Query, Response Segregation [CQRS](https://www.geeksforgeeks.org/what-is-cqrs/) + Event Sourcing [ES](doc/Event%20Sourcing.md) approach
-      * Content-Addressing [IPFS](https://ipfs.io)
+      * [Command, Query, Response Segregation](https://www.geeksforgeeks.org/what-is-cqrs/) + [Event Sourcing](doc/Event%20Sourcing.md)  
+      * Content-Addressing [IPFS](https://ipfs.io)  
       * addressable blocks [IPLD](https://ipld.io)
    8. Proofs
       * Proofs of operations
