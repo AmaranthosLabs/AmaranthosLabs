@@ -1,3 +1,6 @@
+---
+title: "Information Theory"
+---
 # Information Theory
 
 The mathematical treatment of the concepts, parameters and rules governing the transmission of messages through communication systems.

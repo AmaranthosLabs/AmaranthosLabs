@@ -1,3 +1,6 @@
+---
+title: "DNA"
+---
 # DNA
 
 From Biology: dioxyribonucleic acid, the hereditary material in humans and almost all other organisms.

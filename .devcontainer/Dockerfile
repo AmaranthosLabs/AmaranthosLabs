@@ -9,8 +9,15 @@ ARG NODE_VERSION="none"
 RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
 
 # [Optional] Uncomment this section to install additional OS packages.
-# RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-#     && apt-get -y install --no-install-recommends <your-package-list-here>
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+    && apt-get -y upgrade \
+    && apt-get -y install python3-pip python3-dev  \
+    && cd /usr/local/bin \
+    && ln -s /usr/bin/python3 python \
+    && ln -s /usr/bin/pip3 pip \
+    && pip --no-cache-dir install --upgrade pip 
+    #&& pip install hyde \
+    #&& rm -rf /var/lib/apt/lists/* 
 
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1

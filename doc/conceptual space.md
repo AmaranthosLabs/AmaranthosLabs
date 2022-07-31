@@ -1,3 +1,6 @@
+---
+title: "Conceptual Space"
+---
 # Conceptual Space
 
 A high level collection of concepts and relations, used for organizing and comparing sensory, memory or imaginative experiences.

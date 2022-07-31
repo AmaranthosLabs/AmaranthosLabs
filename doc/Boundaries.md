@@ -1,5 +1,8 @@
+---
+title: "Boundaries"
+---
 # Boundaries
 
-Boundaries are the external borders of the shape of our information.
+Boundaries are the external borders, the shape of our information.
 
-This is an emergent process derived from [[Limits]], [[Contexts]] and [[Behaviors]]
+This is an emergent process derived from [/doc/limits], [/doc/contexts] and [/doc/behaviors]

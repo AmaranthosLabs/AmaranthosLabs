@@ -1,3 +1,6 @@
+---
+title: "Content-Addressing"
+---
 # Content-Addressing
 
 ## Content-Addressable Storage
