@@ -15,9 +15,9 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && cd /usr/local/bin \
     && ln -s /usr/bin/python3 python \
     && ln -s /usr/bin/pip3 pip \
-    && pip --no-cache-dir install --upgrade pip 
+    && pip --no-cache-dir install --upgrade pip \
+    && rm -rf /var/lib/apt/lists/* 
     #&& pip install hyde \
-    #&& rm -rf /var/lib/apt/lists/* 
 
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
