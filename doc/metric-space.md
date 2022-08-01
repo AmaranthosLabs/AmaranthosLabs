@@ -1,7 +1,5 @@
 ---
-title: "Domain Object"
+title: "Metric Space"
 indexing: true
 sitemap: false
 ---
-
-

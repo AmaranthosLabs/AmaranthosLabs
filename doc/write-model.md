@@ -1,7 +1,5 @@
 ---
-title: "Domain Object"
+title: "Write Model"
 indexing: true
 sitemap: false
 ---
-
-

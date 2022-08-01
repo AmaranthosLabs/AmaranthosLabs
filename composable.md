@@ -1,6 +1,6 @@
 ---
 title: Composable Information Machine
-feature_image: /img/cimState.png
+feature_image: /img/hashTree.png
 excerpt: "A distributed knowledge encapsulation system based on Functional Reactive Programming and Event Sourcing"
 ---
 > A [distributed](https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html) knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).

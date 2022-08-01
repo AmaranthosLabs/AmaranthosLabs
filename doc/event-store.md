@@ -1,8 +1,8 @@
 ---
 title: "Event Store"
+indexing: true
+sitemap: false
 ---
-
-# Event Store
 
 Stores changes to your data as a sequential series of immutable events. These events may be played back in order to recreate any state at any point in the sequence. It also allow divergence from previous points to be explored easily and for projections to other systems as events occur.
 

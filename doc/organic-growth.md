@@ -1,5 +1,7 @@
 ---
 title: "Organic Growth"
+indexing: true
+sitemap: false
 ---
 # Organic Growth
 

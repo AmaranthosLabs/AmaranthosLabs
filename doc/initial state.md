@@ -1,5 +1,7 @@
 ---
 title: "Initial State"
+indexing: true
+sitemap: false
 ---
 # Initial State
 

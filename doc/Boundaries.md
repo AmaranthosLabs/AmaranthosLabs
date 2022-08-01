@@ -1,8 +1,8 @@
 ---
 title: "Boundaries"
+indexing: true
+sitemap: false
 ---
-# Boundaries
-
-Boundaries are the external borders, the shape of our information.
+External borders which define the shape of information.
 
 This is an emergent process derived from [/doc/limits], [/doc/contexts] and [/doc/behaviors]

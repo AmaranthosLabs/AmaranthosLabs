@@ -1,10 +1,11 @@
 ---
 title: "Infrastructure Resource Management"
+indexing: true
+sitemap: false
 ---
-# Infrastructure Resource Modeling
 
-\Addresses the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.
+Addresses the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.
 
-``` reference
+--- reference
 
-https://github.com/netbox-community/netbox
+[NetBox](https://github.com/netbox-community/netbox)

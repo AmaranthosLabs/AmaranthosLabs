@@ -1,6 +1,7 @@
 ---
 title: "Limits"
+indexing: true
+sitemap: false
 ---
-# Limits
 
-Limits are minimums and maximums for known things. They help us to shape [[Boundaries]] and establish the metrics of a [[Metric Space]]
+Limits are minimums and maximums for known things. They help us to shape [boundaries](/doc/boundaries) and establish the metrics of a [metric-space](/doc/metric-space)

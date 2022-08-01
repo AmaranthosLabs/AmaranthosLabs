@@ -1,9 +1,9 @@
 ---
 title: "Context"
+indexing: true
+sitemap: false
 ---
-
-# Context
 
 The critical environment need to relevance to the object and its relationships.
 
-Contexts are the sets involving limits, boundaries, domains and behaviors.
+Contexts are the sets involving [/doc/limits], [/doc/boundaries], [/doc/domains] and [/doc/behaviors].

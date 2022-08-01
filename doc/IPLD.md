@@ -1,5 +1,7 @@
 ---
 title: "IPLD"
+indexing: true
+sitemap: false
 ---
 # IPLD
 ## Interplanetary Linked Data

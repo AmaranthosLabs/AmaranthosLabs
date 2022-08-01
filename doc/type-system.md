@@ -1,4 +1,5 @@
 ---
 title: "Type System"
+indexing: true
+sitemap: false
 ---
-# Type System

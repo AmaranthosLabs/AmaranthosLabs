@@ -1,5 +1,7 @@
 ---
 title: "Information Theory"
+indexing: true
+sitemap: false
 ---
 # Information Theory
 

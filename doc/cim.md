@@ -1,11 +1,11 @@
 ---
 title: "Composable Information Machine"
+indexing: true
+sitemap: false
 ---
-# Composable Information Machine
+A `Composable Information Machine` encapsulates information in such a way that we can see the shape of the concepts we are thinking about, we will create a 3 Dimensional universe of shapes these relationships form through [Emergence Theory](http://emergence.co.uk/the-science/what-is-emergence-theory/).
 
-A [Composable Information Machine](/doc/cim) encapsulates information in such a way that we can see the shape of the concepts we are thinking about, we will create a 3 Dimensional universe of shapes these relationships form through [Emergence Theory](http://emergence.co.uk/the-science/what-is-emergence-theory/).
-
-[Composable Information Machines](doc/cim) are based on [Category Theory](https://ncatlab.org/nlab/show/category+theory#section_Idea), where *`objects`* are all [Topological Spaces](https://mathworld.wolfram.com/TopologicalSpace.html) and *`arrows`* are [morphisms](https://ncatlab.org/nlab/show/morphism).
+`Composable Information Machine` are based on [Category Theory](https://ncatlab.org/nlab/show/category+theory#section_Idea), where *`objects`* are all [Topological Spaces](https://mathworld.wolfram.com/TopologicalSpace.html) and *`arrows`* are [morphisms](https://ncatlab.org/nlab/show/morphism).
 
 Absolutely everything looks like a variation of:
 
@@ -26,7 +26,7 @@ We attempt to abstract it away so that it is there, but not in our face all the 
 
 [Composable Information Machine](/doc/cim) removes the unknown progressively through abstracted evolutionary concepts. Difficult material is usable and trustable, yet not always fully formed. We expect to continuously refine any machine we create and expect an integral feedback mechanism to do so. This system is able to learn, it is in fact, based on how your brain works. We learn things by reference, or pointing. We use this principle to derive [Conceptual Spaces](/doc/conceptual-space) which allow us to relate many-to-many-to-many relationships is a mathematically reasonable way.
 
-Creating a [Composable Information Machine](/doc/cim) should be a pleasant experience that helps us to better understand our information and the environments that envelope it. This is a matter of encapsulation and creation so that independent systems have an ability to interact with each other in predictable and automated ways. We follow a set of constraints and boundaries that seek to eliminate states and behaviors we don't want to be possible within our machine.
+Creating a `Composable Information Machine` should be a pleasant experience that helps us to better understand our information and the environments that envelope it. This is a matter of encapsulation and creation so that independent systems have an ability to interact with each other in predictable and automated ways. We follow a set of constraints and boundaries that seek to eliminate states and behaviors we don't want to be possible within our machine.
 
 Self-organization is a vital aspect to this strategy. [Organic growth](/doc/organic-growth) provides a natural and evolutionary way to partition and scale, we simulate this through [Biomimicry](https://biomimicry.org/what-is-biomimicry/). We never know everything in advance, environmental challenges occur in information machines such as:
   * power

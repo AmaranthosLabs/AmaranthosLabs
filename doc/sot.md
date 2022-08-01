@@ -1,7 +1,8 @@
 ---
 title: "System of truth"
+indexing: true
+sitemap: false
 ---
-# System of Truth
 
 The trusted source with a complete picture of the defined object as a whole. [a.k.a. Read Model](/doc/read-model)
 
