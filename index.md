@@ -2,7 +2,7 @@
 title: Amaranthos Labs
 feature_text: ## Immutability in Perpetuity
 feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Amaranthos researches critical information creation, security, communication, storage and retrieval"
+excerpt: "Amaranthos researches critical information protection and access"
 ---
 
 ### How do you control your most important information?

@@ -87,7 +87,7 @@ defaults:
     values:
       layout: page # Set the default layout for pages
 # 7. Site settings
-remote_theme: amaranthoslabs/alembic@main
+remote_theme: amaranthoslabs/alembic@deploy
 # 8. Site favicons & manifest icons
 title: "Amaranthos Labs" # Site name or title, also used in jekyll-seo-tag
 logo: "/img/amaranthos.png" # Site logo, also used in jekyll-seo-tag
