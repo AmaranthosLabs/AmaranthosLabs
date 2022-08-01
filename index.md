@@ -1,10 +1,12 @@
 ---
-feature_text: ## Immutability in Perpetuity
+feature_text: |
+## Immutability in Perpetuity
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Amaranthos researches critical information protection and access"
 ---
 
 ### How do you control your most important information?
+
 <div style="column-count: 2"> 
   <ul>
     <li>Is it all stored in one place?</li>
@@ -23,7 +25,7 @@ excerpt: "Amaranthos researches critical information protection and access"
   </ul>
 </div>
 
-We answer these questions with the:
+> **We answer these questions with the:**
 
 > ### [Composable Information Machine](/composable)
 
