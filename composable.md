@@ -11,9 +11,11 @@ We want a [Composable Information Machine](/doc/cim).
 
 ![diagram of a cim](/img/cim.svg)
 
+Expect several [Sources of Truth](/doc/sot) connected to several [Systems of Record](/doc/sor) with a secure [peer-to-peer](https://www.merriam-webster.com/dictionary/peer-to-peer) network where we control the peers and the channels.
+
 ## Incorporate information decisions into our daily lives
 
-Currently we spend far to much time processing information that *could be fully automated*. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.
+Currently we spend far to much time processing information that *`could be fully automated`*. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.
 
 In less than a few centuries, our information devices have exploded from 1, our brain, to a few in books and physical objects, to thousands or even millions of digital and analog sources over our lifetimes. We need to participate in a world that is demanding more and more from us in order just to participate. We need more knowledge, faster, at more times, to interact with our already stored and processed information, that just keeps growing.
 
@@ -25,7 +27,7 @@ We will be using a style of structuring based on [Merkle DAGs](https://proto.sch
 
 ![hash tree](/img/hashTree.svg)
 
-Several current theories take us from the single machine to the connected network, on to a truly distributed machine.  Most of us aren't interested in becoming theoretical mathematicians or computer scientists, let alone linquists and statisticians just to understand our budget. We need an easier way to connect everything, without being subject to vendorization or great cost. Those interested may dive deeply into the theories that make up a [Composable Information Machine](/doc/cim) we offer a wealth of connected understanding for the theories presented in [Docs](docs).
+Several current theories take us from the single machine to the connected network, on to a truly distributed machine.  Most of us aren't interested in becoming theoretical mathematicians or computer scientists, let alone linquists and statisticians just to understand our budget. We need an easier way to connect everything, without being subject to vendorization or great cost. Those interested may dive deeply into the theories that make up a [Composable Information Machine](/doc/cim) we offer a wealth of connected understanding for the theories presented in [Docs](/doc).
 
 > ## I want to own, understand, process and protect my information
 
@@ -34,8 +36,8 @@ Personal computers were supposed to be a tool for personal liberation, we achiev
 It is now critical that we become able to understand our information and how it interacts with us and our environment.  We have achieved something extraordinary in the last 50 years of Information Technology. It became tiny and affordable to everyone. I can buy a $5 postage stamp sized computer that can do quite a bit of processing and it is widely available. The `network` is now ubiquitous with [StarLink](https://starlink.com).
 
 With some initial planning as to how we present and work with information we can come to an achievable whole greater than the sum of it's parts. 
-* It needs to be made from readily accessible and available components which can all be identified, encapsulated and connected. 
-* It needs to be able to grow and learn and use new technology and help us understand how to achieve it.
+   * It needs to be made from readily accessible and available components which can all be identified, encapsulated and connected. 
+   * It needs to be able to grow and learn and use new technology and help us understand how to achieve it.
 
 This means both hardware and software are completely identified, defined and related in a way we can predictably understand. We will know exactly how the machine works and how it communicates. The machine is a single entity as a whole, made from many parts, connected in an environment, residing in the known universe.
 
@@ -49,16 +51,22 @@ We need to cover structure, construction, types, power, networking, people, hard
 
 We define an inventory system which, in turn, defines the informational limits and boundaries. We will combine many well-known services, yet see them as related and usable in very specific ways.
 
-We can choose from many [infrastructure resource modeling](/doc/irm) systems. We need a base that will be the [source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) for our network. [NetBox](https://docs.netbox.dev/en/stable/) fulfills this for us nicely. Next, where do I put it? Anywhere actually, this is a containerized system, in this guide we will use a Raspberry Pi 4B for the initial system. Expect whole systems to be replaced over time. This can easily be the biggest, fastest server you want to put it on, we just don't require it.
+We can choose from many [infrastructure resource modeling](/doc/irm) systems, the exact system is not important. We simply need a base that will act as the [source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) for our network. [NetBox](https://docs.netbox.dev/en/stable/) fulfills this for us nicely, if you need or want something else, you can use it. We fully expect [NetBox](https://docs.netbox.dev/en/stable/) to be replaced at some point so we start off expecting to plan for it.  
+
+Next, where do I put it? Anywhere actually, this is a containerized system, in this guide we will start with a Raspberry Pi 4B for the initial system. We want to start simple and grow the machine organically as we need it. 
+
+> It starts with a clone of the `cim repository` running the .devcontainer somewhere. You may do this on a laptop, on github, or anywhere else these docker containers are capable of running.
+
+We will add clusters, cloud-services, racks of machines and many more containerized systems as we go. Expect whole systems to be replaced over time. This can easily be the biggest, fastest set of servers you want to put it on, we just don't require it. Start simple and scale.
 
 NetBox is designed to be a centralized single source of truth while a [Composable Information Machine](/doc/cim) is distributed and partitioned. To accommodate this we will be making two significant adjustments to how we use NetBox. We extend NetBox to have a Write model as well as to use [Event Sourcing](/doc/event-sourcing).
 
 Abstracted interface to the network infrastructure model: 
 
->* Read Model from NetBox
->* Write Model (abstracted from same then optimized)
->* Event Sourcing
->* Projections to create interaction and read model population
+   * Read Model from NetBox
+   * Write Model (abstracted from same then optimized)
+   * Event Sourcing
+   * Projections to create interaction and read model population
 
 We will use the current NetBox data model as a READ Model for [IRM](/doc/irm). The Write Model is an abstraction we will create. We could [abstract an API in Rust](https://openapi-generator.tech/docs/generators/rust/) for our use with the Read Model, but there is one already built we can start from: [https://github.com/AmaranthosLabs/rust-netbox]. 
 

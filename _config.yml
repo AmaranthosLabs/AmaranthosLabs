@@ -54,6 +54,13 @@ plugins:
 - jemoji
 # 5. Collections
 collections:
+  doc:
+    title: Docs 
+    output: true
+    description: "Documents about Techniques" # The post list page content
+    feature_text: |
+     How we do Composition
+    feature_image: "https://picsum.photos/2560/600?image=1073"
   posts:
     title: Posts # Needed for Siteleaf
     output: true
@@ -61,6 +68,7 @@ collections:
     feature_text: |
      Thoughts and ideas about Composition
     feature_image: "https://picsum.photos/2560/600?image=866"
+    
 
 # 6. Jekyll collections settings
 sass:
