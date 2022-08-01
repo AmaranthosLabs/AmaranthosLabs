@@ -1,37 +1,43 @@
 ---
 title: Composable Information Machine
-feature_image: /img/hashTree.png
+feature_image: /img/FunctionalProg.png
 excerpt: "A distributed knowledge encapsulation system based on Functional Reactive Programming and Event Sourcing"
 ---
 > A [distributed](https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html) knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
 
-We work with enormous amounts of continuously growing information. From 2020 to 2025 it will grow from [64 to 180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/). With access to [exabytes](https://www.backblaze.com/blog/what-is-an-exabyte/) of information we could be doing [data science on telemetry from spacecraft](https://ntrs.nasa.gov/citations/20100021335), or [image classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification). While most of us have more casual needs, computing today requires quite a lot of information and a way to interchange it effectively, lest you will be the interchange.
+We work with enormous amounts of continuously growing information. From 2020 to 2025 it will grow from [64 to 180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/). Computing today requires quite a lot of information and a way to interchange it effectively, lest you will be the interchange. We need a standard way to connect it, relate it and query it.
+
+We want a [Composable Information Machine](/doc/cim). 
+
+![diagram of a cim](/img/cim.svg)
 
 ## Incorporate information decisions into our daily lives
 
-Currently we spend far to much time processing information that *could be fully automated*. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits.
+Currently we spend far to much time processing information that *could be fully automated*. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.
 
 In less than a few centuries, our information devices have exploded from 1, our brain, to a few in books and physical objects, to thousands or even millions of digital and analog sources over our lifetimes. We need to participate in a world that is demanding more and more from us in order just to participate. We need more knowledge, faster, at more times, to interact with our already stored and processed information, that just keeps growing.
 
-Our brains aren't getting bigger, but our capacity to abstract and relate is getting much better. We have a bunch of Math and Computer Science to handle this, and we will learn some over time. However, we also now have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn't know what [DNA](https://medlineplus.gov/genetics/understanding/basics/dna/) was when the [Univac](https://ethw.org/UNIVAC) was built.
+We now have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn't know what [DNA](https://medlineplus.gov/genetics/understanding/basics/dna/) was when the [Univac](https://ethw.org/UNIVAC) was built, yet we still use this same fundamental architecture today.
 
-Self-assembly, replication and identification are key ideas that [DNA](/doc/dna) helps to handle in biology. We have the same needs for information. In [Information Theory](/doc/information-theory) we know how the math works to communicate information, however, structuring it has led to centuries of debate.
+Self-assembly, replication and identification are key ideas that [DNA](/doc/dna) helps to handle in biology. We have the same needs for information. [Information Theory](/doc/information-theory) taught us how the math works to communicate information, however, structuring it has led to countless debate.
 
-There are several current theories that take us from the single machine to the connected network, to a truly distributed machine.  We will use and introduce knowledge as the need emerges, most of us aren't interested in becoming theoretical mathematicians or computer scientists, let alone linquists and statisticians. We do however, wish to allow those interested to dive deeply into the theories that make up a [Composable Information Machine](/doc/cim).
+We will be using a style of structuring based on [Merkle DAGs](https://proto.school/merkle-dags) and accessing them as [Block Storage](https://docs.ipfs.tech/how-to/work-with-blocks/) of a [Topological](https://ncatlab.org/nlab/show/topological+space) and [Metric](https://ncatlab.org/nlab/show/metric+space) Space. 
+
+![hash tree](/img/hashTree.svg)
+
+Several current theories take us from the single machine to the connected network, on to a truly distributed machine.  Most of us aren't interested in becoming theoretical mathematicians or computer scientists, let alone linquists and statisticians just to understand our budget. We need an easier way to connect everything, without being subject to vendorization or great cost. Those interested may dive deeply into the theories that make up a [Composable Information Machine](/doc/cim) we offer a wealth of connected understanding for the theories presented in [Docs](docs).
 
 > ## I want to own, understand, process and protect my information
 
 Personal computers were supposed to be a tool for personal liberation, we achieved that. I now have dozens of computers in every room, data all over the internet and programming that goes back decades. Even though we have been talking about [convergence](/doc/convergence) for 30 years, we never achieved it.
 
-It is now critical that we become able to understand our information and how it interacts with us and our environment.  We have achieved something extraordinary in the last 50 years of Information Technology. It became tiny and affordable to everyone. I can buy a $5 postage stamp sized computer that can do quite a bit of processing.
+It is now critical that we become able to understand our information and how it interacts with us and our environment.  We have achieved something extraordinary in the last 50 years of Information Technology. It became tiny and affordable to everyone. I can buy a $5 postage stamp sized computer that can do quite a bit of processing and it is widely available. The `network` is now ubiquitous with [StarLink](https://starlink.com).
 
-A problem is exposed when we don't program this stuff ourselves, it has been immensely difficult to follow. This is a world filled with jargon, minute details, difficult concepts and bugs... so many bugs.
+With some initial planning as to how we present and work with information we can come to an achievable whole greater than the sum of it's parts. 
+* It needs to be made from readily accessible and available components which can all be identified, encapsulated and connected. 
+* It needs to be able to grow and learn and use new technology and help us understand how to achieve it.
 
-We humans are adaptive creatures and like to dive into water before thinking about what is in the water, or even if it is water at all. In the information realm, we have an infinite set of possibilities to explore and the only thing stopping us from exploring them all is perceived time.
-
-With some initial planning as to how we present and work with information we can come to an achievable whole greater than the sum of it's parts. It needs to be made from readily accessible and available components which can all be identified, encapsulated and connected. It needs to be able to grow and learn and use new technology and help us understand how to achieve it.
-
-We want a [Composable Information Machine](/doc/cim). This means both hardware and software are completely identified, defined and related in a way we can predictably understand. We will know exactly how the machine works and how it communicates. The machine is a single entity as a whole, made from many parts, connected in an environment, residing in the known universe.
+This means both hardware and software are completely identified, defined and related in a way we can predictably understand. We will know exactly how the machine works and how it communicates. The machine is a single entity as a whole, made from many parts, connected in an environment, residing in the known universe.
 
 A [Composable Information Machine](/doc/cim) is a way to encapsulate information in a known, predictable manner in which we are in much more control of our global access to information. We now have a better ability to use it for making decisions that affect our lives rather than us being the sole machine to sort and access our information.
 
