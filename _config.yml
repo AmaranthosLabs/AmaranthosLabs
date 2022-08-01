@@ -28,7 +28,7 @@ paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
   username: steeleprice # jekyll-seo-tag > Owners twitter username
-author: Amaranthos Labs, LLC # jekyll-seo-tag > default author
+  author: AmaranthosLabs # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Steele Price # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
@@ -59,7 +59,7 @@ collections:
     output: true
     description: "Thoughts and ideas" # The post list page content
     feature_text: |
-      Welcome to the posts
+     Thoughts and ideas about Composition
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
@@ -128,6 +128,8 @@ navigation_header:
   url: /categories/
 - title: Search
   url: /search/
+- title: About
+  url: /about/
 
 navigation_footer:
 - title: Created by Amaranthos Labs, LLC.
