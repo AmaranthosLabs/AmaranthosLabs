@@ -1,26 +1,28 @@
 ---
-title: Amaranthos Labs
 feature_text: ## Immutability in Perpetuity
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Amaranthos researches critical information protection and access"
 ---
 
 ### How do you control your most important information?
+<div style="column-count: 2"> 
+  <ul>
+    <li>Is it all stored in one place?</li>
+    <li>Can you search it?</li>
+    <li>Can you easily access it from anywhere?</li>
+    <li>Can it recover from disasters?</li>
+    <li>Can it be shared?</li>
+    <li>Can you relate it to metadata?</li>
+    <li>Can it grow with you over time?</li>
+    <li>Is it safe?</li>
+    <li>Is it secure?</li>
+    <li>Is it mined?</li>
+    <li>Is it hacked?</li>
+    <li>Can it interact with other information?</li>
+    <li>Can it help you make decisions quickly?</li>
+  </ul>
+</div>
 
-* Is it all stored in one place?
-* Can you search it?
-* Can you access it all easily from anywhere?
-* Can it recover from disasters?
-* Can it be shared?
-* Can you relate it to metadata?
-* Can it grow with you over time? Even decades?
-* Is it safe?
-* Is it secure?
-* Is it mined?
-* Is it hacked?
-* Can it interact with other information?
-* Can it help you make decisions quickly?
-  
 We answer these questions with the:
 
 > ### [Composable Information Machine](/composable)
