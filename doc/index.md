@@ -1,9 +1,6 @@
 ---
-title: "Documentation"
-excerpt: "The ubiquitous language of the Composable Information Machine"
+title: "Docs"
 layout: blog
-collectionpage: Docs
-indexing: true
-sitemap: true
+collectionpage: doc
+aside: true
 ---
-
