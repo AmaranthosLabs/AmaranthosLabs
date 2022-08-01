@@ -6,3 +6,5 @@ collectionpage: Docs
 indexing: true
 sitemap: true
 ---
+
+{% include post-list.html %}
