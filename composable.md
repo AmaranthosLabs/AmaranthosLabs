@@ -23,7 +23,7 @@ We now have much better understanding of our cognitive abilities and how we are 
 
 Self-assembly, replication and identification are key ideas that [DNA](/doc/dna) helps to handle in biology. We have the same needs for information. [Information Theory](/doc/information-theory) taught us how the math works to communicate information, however, structuring it has led to countless debate.
 
-We will be using a style of structuring based on [Merkle DAGs](https://proto.school/merkle-dags) and accessing them as [Block Storage](https://docs.ipfs.tech/how-to/work-with-blocks/) of a [Topological](https://ncatlab.org/nlab/show/topological+space) and [Metric](https://ncatlab.org/nlab/show/metric+space) Space. 
+We will be using a style of structuring based on [Merkle DAGs](https://proto.school/merkle-dags) and accessing them as [Block Storage](https://docs.ipfs.tech/how-to/work-with-blocks/) in a [Metric Space](https://ncatlab.org/nlab/show/metric+space).
 
 ![hash tree](/img/hashTree.svg)
 
