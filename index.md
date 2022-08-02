@@ -4,6 +4,7 @@ feature_text: |
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Amaranthos researches critical information protection and access"
 ---
+## Information Management
 
 <div style="column-count: 2"> 
   <ul>
