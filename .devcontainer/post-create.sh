@@ -10,3 +10,7 @@ fi
 if [ -f Gemfile ]; then
     bundle install
 fi
+
+# set some git aliases
+git config --global alias.co checkout
+git config --global alias.st status
