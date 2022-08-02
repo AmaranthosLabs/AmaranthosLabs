@@ -5,11 +5,11 @@ excerpt: "A distributed knowledge encapsulation system based on Functional React
 ---
 > A [distributed](https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html) knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
 
-In less than a few centuries, our information devices have exploded from 1, our brain, to a few in books and physical objects, to thousands or even millions of digital and analog sources over our lifetimes. We need to participate in a world that is demanding more and more from us in order just to participate. We need more knowledge, faster, at more times, to interact with our already stored and processed information, that just keeps growing.
+In less than a few centuries, our information devices have exploded from 1, our brain, to a few in books and physical objects, to thousands of digital and analog sources over our lifetimes. We need to participate in a world that is demanding more and more from us in order just to participate. 
 
-From 2020 to 2025 it will grow from [64 to 180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/). Computing today requires quite a lot of information and a way to interchange it effectively, lest you will be the interchange. We need a standard way to connect it, relate it and query it.
+We need more knowledge, faster, more often, just to interact with our already stored and processed information. And it just keeps growing. From 2020 to 2025 it will grow from [64 to 180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/). Computing today requires lots of information and a way to interchange it effectively, lest *you* will be the interchange. We need a standard way to connect it, relate it and query it.
 
-We want a [Composable Information Machine](/doc/cim). 
+We want a [Composable Information Machine](/doc/cim).
 
 ![diagram of a cim](/img/cim.svg)
 
