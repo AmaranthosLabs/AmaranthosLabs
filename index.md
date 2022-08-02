@@ -25,7 +25,6 @@ excerpt: "Amaranthos researches critical information protection and access"
 </div>
 
 > **We answer these questions with the:**
-
 > ### [Composable Information Machine](/composable)
 
 A [distributed](https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html) knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
