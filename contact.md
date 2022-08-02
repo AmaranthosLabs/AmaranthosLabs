@@ -6,6 +6,10 @@ title: Contact
   method="POST"
 >
   <label>
+    Your name:
+    <input name="name">
+  </label>
+  <label>
     Your email:
     <input type="email" name="email">
   </label>
