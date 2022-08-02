@@ -5,7 +5,9 @@ excerpt: "A distributed knowledge encapsulation system based on Functional React
 ---
 > A [distributed](https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html) knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
 
-We work with enormous amounts of continuously growing information. From 2020 to 2025 it will grow from [64 to 180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/). Computing today requires quite a lot of information and a way to interchange it effectively, lest you will be the interchange. We need a standard way to connect it, relate it and query it.
+In less than a few centuries, our information devices have exploded from 1, our brain, to a few in books and physical objects, to thousands or even millions of digital and analog sources over our lifetimes. We need to participate in a world that is demanding more and more from us in order just to participate. We need more knowledge, faster, at more times, to interact with our already stored and processed information, that just keeps growing.
+
+From 2020 to 2025 it will grow from [64 to 180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/). Computing today requires quite a lot of information and a way to interchange it effectively, lest you will be the interchange. We need a standard way to connect it, relate it and query it.
 
 We want a [Composable Information Machine](/doc/cim). 
 
@@ -16,8 +18,6 @@ Expect several [Sources of Truth](/doc/sot) connected to several [Systems of Rec
 ## Incorporate information decisions into our daily lives
 
 Currently we spend far to much time processing information that *`could be fully automated`*. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.
-
-In less than a few centuries, our information devices have exploded from 1, our brain, to a few in books and physical objects, to thousands or even millions of digital and analog sources over our lifetimes. We need to participate in a world that is demanding more and more from us in order just to participate. We need more knowledge, faster, at more times, to interact with our already stored and processed information, that just keeps growing.
 
 We now have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn't know what [DNA](https://medlineplus.gov/genetics/understanding/basics/dna/) was when the [Univac](https://ethw.org/UNIVAC) was built, yet we still use this same fundamental architecture today.
 
