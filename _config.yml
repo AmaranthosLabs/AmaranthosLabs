@@ -132,12 +132,12 @@ navigation_header:
   url: /doc/
 - title: Posts
   url: /posts/
-- title: Categories
-  url: /categories/
 - title: Search
   url: /search/
 - title: About
   url: /about/
+- title: Contact
+  url: /contact/
 
 navigation_footer:
 - title: Created by Amaranthos Labs, LLC.
