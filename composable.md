@@ -70,9 +70,9 @@ Abstracted interface to the network infrastructure model:
 
 We will use the current NetBox data model as a READ Model for [IRM](/doc/irm). The Write Model is an abstraction we will create. We could [abstract an API in Rust](https://openapi-generator.tech/docs/generators/rust/) for our use with the Read Model, but there is one already built we can start from: [https://github.com/AmaranthosLabs/rust-netbox]. 
 
-Changes to NetBox directly can be immediately supported through the Logging functionality. Writes will be sent to an [Event Store](/doc/event-store) through the built-in logging mechanics of NetBox. We can then in parallel work on an optimized interface with this adapter being used to get us up and running.
+Changes to NetBox directly can be immediately supported with [n8n](https://n8n.io). Writes will be sent to an [Event Store](/doc/event-store) with the API of NetBox.
 
-Projections from the [Event Store](/doc/event-store) cause various actions to be performed based on the nature of the Event. Events are Strongly Typed and form a [Type System](/doc/type-system.md) used throughout the [Composable Information Machine](/doc/cim).
+Projections from the [Event Store](/doc/event-store) cause various actions (frequently modeled and tested in [n8n](https://n8n.io) to be performed based on the nature of the Event. Events are Strongly Typed and form a [Type System](/doc/type-system.md) used throughout the [Composable Information Machine](/doc/cim).
 
 Let's recap so far what we are doing.
 We are building a [Composable Information Machine](/doc/cim)
@@ -81,7 +81,7 @@ We require the following in order to do so:
 
    1. Definition and Design
       * Structure - [Type System](http://lucacardelli.name/Papers/TypeSystems.pdf)
-      * Mapping and flow - [FRP](http://neilsculthorpe.com/publications/safe-efficient-FRP.pdf)
+      * Mapping and flow - [n8n](https://n8n.io)
       * documentation - [NetBox](https://docs.netbox.dev/en/stable/) and [git](https://git-scm.com)
       * Content-Addressing - [IPLD](https://ipld.io)
    2. Software Defined Network
@@ -106,6 +106,8 @@ We require the following in order to do so:
       * Channel between nodes
       * Command and control separation
       * [Identity and Access Management](https://webofidentity.com/blog/self-sovereign-digital-identity/)
+      * [FRP](http://neilsculthorpe.com/publications/safe-efficient-FRP.pdf)
+
    7. Persistance
       * [System of Record](/doc/sor) binding multiple [Sources of Truth](/doc/sot)
       * [Command, Query, Response Segregation](https://www.geeksforgeeks.org/what-is-cqrs/) + [Event Sourcing](/doc/event-sourcing.md)  
