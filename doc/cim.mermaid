@@ -1,5 +1,5 @@
 graph LR   
-subgraph cim
-SOT{Source of Truth} -->|projects into| sotAPI[API] -->|adapts for| SOR{System of Record} -->|projects into| rmAPI[API] -->|tranforms into| RM[Read Model]
+subgraph "Composable Information Machine - 'cim'"
+SOT{Source of Truth} -->|projects into| sotAPI[API] -->|adapts for| SOR{System of Record} -->|projects into| rmAPI[API] -->|policies/transforms into| RM[Read Model]
 RM -->|input deltas| acl[ACL/Filters] --> SOT
 end

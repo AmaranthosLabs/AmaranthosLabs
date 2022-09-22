@@ -1,9 +1,10 @@
----
-title: "Context"
-indexing: true
-sitemap: false
----
++++
+title = "Context"
+date = 2022-08-03
 
-The critical environment need to relevance to the object and its relationships.
-
-Contexts are the sets involving [/doc/limits], [/doc/boundaries], [/doc/domains] and [/doc/behaviors].
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
+The situation within which something exists or happens.

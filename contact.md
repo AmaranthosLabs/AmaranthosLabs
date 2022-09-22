@@ -6,5 +6,5 @@ id: "xqkjzbob"
   action="https://formspree.io/f/{id}"
   method="POST"
 >
-{% include site-search.html %}
+{% include site-contact.html %}
 </form>

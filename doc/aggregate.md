@@ -1,8 +1,10 @@
----
-title: "Aggregate"
-excerpt: "A cluster of domain objects that can be treated as a single unit."
-indexing: true
-sitemap: false
----
++++
+title = "Aggregate"
+date = 2022-08-03
 
-A cluster of [domain objects](/doc/domain-object) that can be treated as a single unit.
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
+ A collection of things at the same place and time with no other pertinent association. i.e. things in a shopping cart.

@@ -1,9 +1,14 @@
----
-title: "System of truth"
-indexing: true
-sitemap: false
----
++++
+title = "Source of Truth"
+date = 2022-08-03
 
-The trusted source with a complete picture of the defined object as a whole. [a.k.a. Read Model](/doc/read-model)
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
 
-[Read Models](/doc/read-model) are specific [aggregates](/doc/aggregate) of information designed to envelope the [Limits](/doc/limits) and [boundaries](/doc/boundaries) and [behaviors](/doc/behaviors) of a defined space.
+
+The trusted source with a complete picture of the defined object as a whole. [a.k.a. Read Model](/library/read-model)
+
+[Read Models](/library/read-model) are specific [aggregates](/library/aggregate) of information designed to envelope the [Limits](/library/limits) and [boundaries](/library/boundaries) and [behaviors](/library/behaviors) of a defined space.
