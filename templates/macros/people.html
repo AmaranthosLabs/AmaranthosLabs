@@ -1,0 +1,12 @@
+{% macro render(page) %}
+  {% set people = page.taxonomies.people | default(value=[]) %}
+  {% for person_slug in people %}
+    {% set person = get_page(path="people/"~person_slug~"/index.md") %}
+    <a
+      class="text-decoration-none text-reset"
+      href="{{get_taxonomy_url(kind="people", name=person_slug)}}"
+      title="{{person.title}}"
+    ><b>{{person.title}}</b></a>{% if not loop.last %}, {% endif %}
+  {% endfor %}{% if people | length > 0 %} - {% endif %}
+  {{page.date | date(format=config.extra.date_format)}}
+{% endmacro %}

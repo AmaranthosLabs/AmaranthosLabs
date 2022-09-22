@@ -1,0 +1,22 @@
+{% import "macros/image.html" as image %}
+{% import "macros/summary.html" as summary %}
+{% import "macros/info.html" as info %}
+
+{% macro render(page, type="default") %}
+  {% set img = page.extra.image | default(value="") %}
+  {% if img %}
+  {% if img is not starting_with("/") %}
+    {% set img = page.path~img %}
+  {% endif %}
+  {% endif %}
+  <div class="card border-0 text-white">
+    {{image::render(
+      src=get_url(path=img),
+      alt=page.title,
+      extra="card-img"
+    )}}
+    <div class="card-img-overlay">
+      {{info::render(page=page)}}
+    </div>
+  </div>
+{% endmacro %}

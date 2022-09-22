@@ -1,0 +1,23 @@
+graph LR   
+subgraph accounts
+   SOTa[Account] --> sotaAPI[API] -->|adapts for| SORa{PII Event Store}  
+   SORa -->|project into| apia[Accounting API] -->|adapts for| appAccounting[Banking]
+   SORa -->|push to API| appComm[Communication]
+end
+subgraph network
+   SOTn[Network] -->|projects into| SORn{Network Event Store} -->|projects into| appN[Network Appliance]
+end
+
+subgraph organizations
+   SOTo[Organization] -->|projects into| SORo{CRM Event Store}  -->|projects into| appSM[Social Media]
+end
+
+subgraph people
+   SOTp[Person] -->|projects into| SORp{HR Event Store} -->|projects into| appHR[HR System]
+end
+
+subgraph inventory
+   SOTi[Inventory] -->|projects into| SORi{Inventory Event Store} -->|projects into| RMNB[NetBox]
+end
+
+SOT[System of Truth] -->|projects into| sotAPI[API] -->|adapts for| SOR{System of Record} -->|projects into| RM[Read Model]
