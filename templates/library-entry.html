@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% import "macros/image.html" as image %}
+
+{% block content %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {% if page.date %}
+  <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+  {% endif %}
+
+  {% set img = page.extra.image | default(value="") %}
+  {% if img %}
+  {% if img is not starting_with("/") %}
+    {% set img = page.path~img %}
+  {% endif %}
+  <div class="w-100 align-items-center">
+    {{image::render(
+      src=get_url(path=img),
+      alt=page.title
+    )}}
+  </div>
+  {% endif %}
+
+  {{ page.content | safe }}
+</div>
+{% endblock %}

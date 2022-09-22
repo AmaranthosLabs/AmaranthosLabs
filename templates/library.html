@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% import "macros/library.html" as library %}
+{% import "macros/paginator.html" as paginator %}
+
+{% block content %}
+<h1 class="title">{{ section.title }}</h1>
+
+{% for page in paginator.pages %}
+{{library::render(page=page)}}
+{% endfor %}
+{{paginator::render(paginator=paginator)}}
+
+{% endblock content %}

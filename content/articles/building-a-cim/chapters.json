@@ -1,0 +1,100 @@
+{
+   "chapters": [
+      { "id": 1,
+        "name": "Chapter 1",
+        "title": "Input Definition and Design",
+        "description": "Defining the Machine",
+        "image": "/img/cim.svg",
+        "links": [{ 
+            "name": "What is a cim?",
+            "url": "/library/cim",
+            "description": "Composable Information Machine"
+         },{ 
+           "name": "Input Deltas",
+           "url": "/library/input-deltas",
+           "description": "Incoming Information"
+         },{ 
+             "name": "Source of Truth",
+           "url": "/library/sot",
+           "description": "Information at its trusted source"
+         },{
+             "name": "ACL",
+             "url": "/library/anti-corruption",
+             "description": "Traits which allow incoming information to be processed "
+         }, {
+            "name": "Filters and Manifolds",
+            "url": "/library/filters",
+            "description": "Working with a Type System and Morphisms"}]   
+      },{
+         "id": 2,
+         "name": "Chapter 2",
+         "title": "System of Record",
+         "description": "Defining the Machine - What do we keep?",
+         "image":"/img/cimTruth.png",
+         "links": [{
+            "name": "APIs",
+            "url": "/library/api",
+            "description": "Application Programming Interface"}]
+      },{
+         "id": 3,
+         "name": "Chapter 3",
+         "title": "Chapter 3",
+         "description": "chapter 3",
+         "image":"/img/amaranthos.png",
+         "links": [{
+            "name": "link1",
+            "url": "/library/cim",
+            "description": "link1"}]
+      },{
+         "id": 4,
+         "name": "Chapter 4",
+         "title": "Chapter 4",
+         "description": "chapter 4",
+         "image":"/img/amaranthos.png",
+         "links": [{
+            "name": "link1",
+            "url": "/library/cim",
+            "description": "link1"}]
+      },{
+         "id": 5,
+         "name": "Chapter 5",
+         "title": "Chapter 5",
+         "description": "chapter 5",
+         "image":"/img/amaranthos.png",
+         "links": [{
+            "name": "link1",
+            "url": "/library/cim",
+            "description": "link1"}]
+      },{
+         "id": 6,
+         "name": "Chapter 6",
+         "title": "Chapter 6",
+         "description": "chapter 6",
+         "image":"/img/amaranthos.png",
+         "links": [{
+            "name": "link1",
+            "url": "/library/cim",
+            "description": "link1"}]
+      },{
+         "id": 7,
+         "name": "Chapter 7",
+         "title": "Chapter 7",
+         "description": "chapter 7",
+         "image":"/img/amaranthos.png",
+         "links": [{
+            "name": "link1",
+            "url": "/library/cim",
+            "description": "link1"}]
+      },{
+         "id": 8,
+         "name": "Chapter 8",
+         "title": "Chapter 8",
+         "description": "chapter 8",
+         "image":"/img/amaranthos.png",
+         "links": [{
+            "name": "link1",
+            "url": "/library/cim",
+            "description": "link1"}]            
+      }
+   ]
+}      

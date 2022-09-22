@@ -1,18 +1,13 @@
-# READ ME
+# labs.amaranthos.io
 
-This repository is for the published presence of Amaranthos Labs on Github.
+This is a [Zola](https://github.com/amaranthoslabs/zola) site.
 
-This is an IP and learning site. Marketing is at [Amaranthos.io](https://amaranthos.io)
 
-While this is now serving as our homepage, that will change over time when we install [gitea](https://docs.gitea.io/en-us/)
+Currently using a variation of the [zolastrap]https://github.com/amaranthoslabs/zolastrap theme but it is not referenced, I am heavily editing it.
 
-We use 2 different models currently...
-Jekyll controls the theming, while we use[pandoc](https://pandoc.org/) to assembly pages.
 
-The .devcontainer here is a full pandoc and jekyll development environment. Changes here can be published automatically through testing and ci/cd.
+[Tera template engine](https://tera.netlify.app/)
 
-We use Jekyll Themes:
 
-Previewing the theme locally
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-it is in the [ambelic repository](https://github.com/amaranthoslabs/ambelic)
+Markdown is rendered as [CommonMark](https://commonmark.org/)
+

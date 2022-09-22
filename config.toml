@@ -1,0 +1,58 @@
+# The URL the site will be built for
+base_url = "https://labs.amaranthos.io/"
+
+title = "Amaranthos Labs"
+description = "We secure your most important information"
+
+taxonomies = [
+  {name = "tags", paginate_by = 5},
+  {name = "articles", paginate_by = 5},
+  {name = "people", paginate_by = 5},
+  {name = "library", paginate_by = 5},
+]
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+generate_feed = true
+
+output_dir = "docs"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+copyright = "Copyright(c) 2020-2022 - Amaranthos Labs, LLC."
+banner = "img/banner-logo.png"
+site_logo = ""
+date_format = '%Y-%m-%d'
+
+# bootswatch
+theme = 'slate'
+bg = "dark"
+sticky = true
+
+search = 'Search'
+tag = 'Posts by Topic'
+tags = 'Posts by Topics'
+
+links = [
+	{title = 'Articles', url = 'articles'},
+  {title = 'Tooling', url = 'tools'},
+  {title = 'Library', url = 'library'},
+	{title = 'Topics', url = 'tags'},
+  {title = 'People', url = 'people'},
+	{title = 'About', url = 'about'}
+]
+email = "info@amaranthos.io"
+icons = [
+  {title = 'Twitter', icon = 'twitter', url = 'https://twitter.com/amaranthosio'},
+  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com/amaranthosio'},
+  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com/amaranthosio'},
+  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com/amaranthosio'}
+]
