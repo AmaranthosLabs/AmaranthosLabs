@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Amaranthos Labs</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <link
+      rel="stylesheet"
+      
+      href="https://bootswatch.com/5/slate/bootstrap.min.css"
+      
+    >
+    
+    <link rel="stylesheet" href="https://labs.amaranthos.io/print.css" media="print">
+    <link rel="stylesheet" href="https://labs.amaranthos.io/site.css">
+
+    
+      <link rel="alternate" type="application/atom+xml" title="RSS" href="https://labs.amaranthos.io/atom.xml">
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://labs.amaranthos.io/js/blockquote.js"></script>
+    <script src="https://labs.amaranthos.io/js/img.js"></script>
+    
+    <script defer src="https://labs.amaranthos.io/elasticlunr.min.js"></script>
+    <script defer src="https://labs.amaranthos.io/search_index.en.js"></script>
+    <script src="https://labs.amaranthos.io/js/search.js"></script>
+    
+    
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    
+    
+      <div class="w-100">
+        <img src="https://labs.amaranthos.io/img/banner-logo.png" class="w-100" />
+      </div>
+    
+    
+    
+    
+    <nav class="
+      navbar
+      navbar-expand-lg
+      navbar-dark
+      bg-dark
+    ">
+      <div class="container-fluid">
+        <a class="navbar-brand"
+          href="https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;"
+          title="We safeguard your most important information"
+        >Amaranthos Labs</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;articles"
+                >Articles</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;tools"
+                >Tooling</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;library"
+                >Library</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;tags"
+                >Topics</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;people"
+                >People</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;about"
+                >About</a>
+              </li>
+            
+          </ul>
+          
+          <form class="d-flex" onsubmit="return goSearch(event)">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button
+              class="btn btn-secondary my-2 my-sm-0"
+              type="submit"
+            ><i class="fas fa-search"></i></button>
+          </form>
+          
+        </div>
+      </div>
+    </nav>
+    <main class="container mx-auto my-5">
+      
+<div class="post">
+  <h1 class="post-title">Build a datacenter</h1>
+  <span class="post-date">2022-09-01</span>
+  <p>We are bonding ceph with event store and projections to ipfs and other clients 
+We will be building this from the ground up.</p>
+<h3 id="basic-concepts">Basic Concepts</h3>
+<ul>
+<li><a href="/library/ipfs">ipfs</a> talks to the public internet</li>
+<li><a href="/library/ceph">ceph</a> is low level storage, it talks to hardware (for us)</li>
+<li><a href="/library/event-store">Event store</a> tells you what is there and how it got there</li>
+<li><a href="/library/Authentik">authentik</a> protects it from outsiders
+​</li>
+</ul>
+<h3 id="we-combine-lots-of-different-ideas-to-arrive-at-a-composable-information-machine">We combine lots of different ideas to arrive at a <a href="/library/cim">composable information machine</a>.</h3>
+<p>ceph and ipfs are not typed, it's not their responsibility. We add our own <a href="/library/type-system">type systems</a> as well as <a href="/library/ipld">ipld</a>, and <a href="/library/api">several apis</a> to <a href="/library/ansible">Ansible Playbooks</a>, [NetBox]/library/NetBox, <a href="/library/n8n">n8n Automation</a>, <a href="/tools">and more</a></p>
+<p>We use <a href="/library/hyperconvergence">hyperconvergence</a> internally to provide a hybrid cloud environment and define within it the structure and relationships of all your information.</p>
+<p><img src="https://labs.amaranthos.io/articles/build-a-datacenter/ceph-arch.png" alt="ceph-arch" /></p>
+<ul>
+<li>IPFS is another CLIENT</li>
+<li>RBD is ONLY about blocks in RADOS</li>
+<li>Event Store is metadata about stuff inside the blocks</li>
+<li>We tell <code>ceph</code> to do some specific things for us to enable a better <code>ipfs</code> or any other Client. A Client could be <a href="https://solidproject.org/">SOLID</a> or some other future way or sharing information.</li>
+<li>ceph is how we talk to things inside a rack/datacenter/tenant. It helps us to partition information more wisely. </li>
+<li>blocks in <code>ipfs</code> are translated as a <code>block storage device</code> inside <a href="/library/ceph">ceph</a></li>
+</ul>
+<p>Excellent companies can tell you how to build a 'storage system' yet they refrain from telling you about how to define things about the information within the storage. In fact most of them take great pride in avoiding it. We have traditionally modeled all of this after paper processes.</p>
+<p>We are the processes sitting on top of this generic abstracted stuff. We strive eliminate the hierarchical, location based, paper models and embrace instead a well-define system based on <a href="/library/open-games">open games</a> and <a href="/library/applied-category-theory">applied category theory</a>. Most people don't want to learn this math and hardware stuff to use it. We just want to know it works. </p>
+<p>You only need to learn the idea behind <a href="/library/n8n">n8n</a>, how we will be using it, and <a href="/library/acceptance-test">acceptance tests</a> to create <a href="/library/business-process">business process</a>.</p>
+<p>We will talk a lot about <a href="/library/business-process">business process</a>, <a href="/library/agile">agile</a> and the <a href="library/cone-of-uncertainty">cone of uncertainty</a>. </p>
+<blockquote>
+<p>This is what we directly attack: <a href="/library/chaos">chaos</a> and <a href="/library/uncertainty">uncertainty</a>.</p>
+</blockquote>
+<p><img src="https://labs.amaranthos.io/articles/build-a-datacenter/science.png" alt="science" /></p>
+<p><a href="/articles/build-from-nothing">Building from Nothing</a></p>
+<hr />
+<h4 id="references">References</h4>
+<p><a href="https://youtu.be/7I9uxoEhUdY">Introduction to ceph</a></p>
+<hr />
+
+</div>
+
+    </main>
+    
+    
+    
+<footer class="
+  mt-auto p-5
+  bg-dark
+  text-center
+  text-white
+">
+<div class="row">
+  <div class="col-4 fs-6">Copyright(c) 2020-2022 - Amaranthos Labs, LLC.</div>
+  <div class="col-4">
+    
+    <a
+      class="text-reset mx-1 bg-transparent"
+      href="https:&#x2F;&#x2F;twitter.com&#x2F;amaranthoslabs"
+      title="Twitter"
+    ><i class="fab fa-twitter"></i></a>
+    
+    <a
+      class="text-reset mx-1 bg-transparent"
+      href="https:&#x2F;&#x2F;www.facebook.com&#x2F;amaranthoslabs"
+      title="Facebook"
+    ><i class="fab fa-facebook-f"></i></a>
+    
+    <a
+      class="text-reset mx-1 bg-transparent"
+      href="https:&#x2F;&#x2F;www.instagram.com&#x2F;amaranthoslabs"
+      title="Instagram"
+    ><i class="fab fa-instagram"></i></a>
+    
+    <a
+      class="text-reset mx-1 bg-transparent"
+      href="https:&#x2F;&#x2F;www.youtube.com&#x2F;amaranthoslabs"
+      title="YouTube"
+    ><i class="fab fa-youtube"></i></a>
+    
+  </div>
+  <div class="col-4">  
+    <a
+      href="mailto:info@amaranthos.io"
+      class="text-reset text-decoration-none"
+    >info@amaranthos.io</a>
+    
+  </div>
+</div>
+</footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,14 @@
+graph TD
+    A[ContentID] -->|CID| B{Hash of Leaves} 
+    B -->|CID| C[Hash] 
+    C -->|CID| a[A] 
+    C -->|CID| b[B] 
+    C -->|CID| c[C] 
+    B -->|CID| D[Hash]
+    D -->|CID| d[...]
+    D -->|CID| e[...]
+    D -->|CID| f[...]
+    B -->|CID| E[Hash]
+    E -->|CID| g[X]
+    E -->|CID| h[Y]
+    E -->|CID| i[Z]
