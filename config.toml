@@ -2,7 +2,7 @@
 base_url = "https://labs.amaranthos.io/"
 
 title = "Amaranthos Labs"
-description = "We secure your most important information"
+description = "We safeguard your most important information"
 
 taxonomies = [
   {name = "tags", paginate_by = 5},
@@ -51,8 +51,8 @@ links = [
 ]
 email = "info@amaranthos.io"
 icons = [
-  {title = 'Twitter', icon = 'twitter', url = 'https://twitter.com/amaranthosio'},
-  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com/amaranthosio'},
-  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com/amaranthosio'},
-  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com/amaranthosio'}
+  {title = 'Twitter', icon = 'twitter', url = 'https://twitter.com/amaranthoslabs'},
+  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com/amaranthoslabs'},
+  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com/amaranthoslabs'},
+  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com/amaranthoslabs'}
 ]

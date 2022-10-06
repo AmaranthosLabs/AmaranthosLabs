@@ -12,20 +12,33 @@ template = "empty.html"
       <p class="align-middle">
         Everything we use here is <a href="https://opensource.com/resources/what-open-source">Open Source</a>. Defining the machine requires resources. The process of transforming what we have into what we want is often an intricate one.
       </p>
-      <h3>Consider the following three questions you might ask yourself:</h3>
+      <h4>
+      We endeavor to use abstraction to eliminate the unknown.
+      </h4>
       <ul>
-      <li><i><strong>Given what I have:</strong></i>
+      <li><h3><i><strong>Given what I have:</strong></i></h3>
         <li>Is it possible to get what I want?</li>
         <li>What is the cost to get what I want?</li>
-        <li>What is the set of ways to get what I want?</li>
+        <li>What is the recipe to get what I want?</li>
       </li>
       </ul>
       <p>
-      Amaranthos has a <a href="/library/applied-category-theory">formalism</a> for expressing recipes—methods. We transform one set of resources into another and to derive new recipes from old. These fill a role or ingredient in the recipe and are usually replaceable.
+      <ol>
+        <li>Inventory</li>
+          <li>Person</li>
+          <li>Place</li>
+          <li>Thing</li>
+        <li>Actions</li>
+        <li>Relationships</li>
+      </p>
+      <p>
+      Amaranthos has a <a href="https://labs.amaranthos.io/library/applied-category-theory">formalism</a> for expressing recipes—methods. We transform one set of resources into another and derive new recipes from old. These fill an ingredient or action in the recipe and are inteded to be replaceable.
       </p>
     </div>
   </div>
 </div>
+
+What tools do I need to even think about to architect a [Composable Information Machine](https://labs.amaranthos.io/library/cim)?
 
 ## Our Base Platform
 <dl>
@@ -35,14 +48,18 @@ template = "empty.html"
 <dd>Automation tool to model and create morphisms</dd>
 <dt><a href="https://eventstore.com/eventstoredb">Event Store</a></dt>
 <dd>Event Stores are the partitioned [System of Record](/library/sor)</dd>  
-<dt><a href="http://searx.amaranthos.io/">SearX</a></dt>
-<dd>Search everything locally, securely and privately</dd>
-<dt><a href="https://checkmk.com/">checkmk</a></dt>
-<dd>Monitor all things</dd>
+<dt><a href="https://ceph.org">Ceph</a></dt>
+<dd>Distributed Storage</dd>
 <dt><a href="https://ipfs.io">IPFS</a></dt>
-<dd>Inter Planetary File System - <a href="/library/content-addressing">Content-Addressing</a></dd>
+<dd>Inter Planetary File System - <a href="/library/content-addressing">Content-Addressing over the Internet</a></dd>
+<dt><a href="https://nginx.org">Nginx</a></dt>
+<dd>Reverse proxy, load balancer, mail proxy and HTTP cache.</dd>
+</dl>
 <dt><a href="https://goauthentik.io">Authentik</a></dt>
 <dd>Identity Provider focused on the utmost flexibility and versatility</dd>
+</dl>
+<dt><a href="https://bitwarden.com">Bitwarden</a></dt>
+<dd>Zero knowledge, end-to-end encryption, open source approach to trust, accountability, and security</dd>
 </dl>
 
   * [Rust](https://rust-lang.org)
@@ -78,6 +95,8 @@ template = "empty.html"
   * [StarLink](https://starlink.com)
     * High-speed, low-latency broadband internet in remote and rural locations across the globe.
 
-To build the [Composable Information Machine](/library/cim) we assemble and 
-configure these tools in a specific way and they serve a specific purpose in the [cim](/library/cim).
+To build the [Composable Information Machine](/library/cim) we assemble and configure these tools in a specific way to serve a specific purpose in the [cim](/library/cim).
+
 For each element of a [cim](/library/cim), there is a [repository](https://git-scm.com/docs/git) and [development environment](/library/devcontainer) created to work speficifically with this ecosystem.
+
+They are composed to form a working system we call a Composable Information Machine.
