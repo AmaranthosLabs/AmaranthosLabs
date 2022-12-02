@@ -136,16 +136,21 @@
 <p>in other words, it is a section of number line that we can define and assign a few special attributes to the range.</p>
 <p>See <a href="/articles/networking-explained">Networking Explained</a> for more details.</p>
 <h3 id="define-the-ranges">Define the ranges</h3>
+<p>We will use a Class A private address space according to <a href="https://datatracker.ietf.org/doc/html/rfc1918">ietf rfc1918</a>.</p>
 <p>For our example let's start with a big range because we will be subnetting through <a href="/library/bridges">bridges</a> in our <a href="/library/cim">cim</a>.</p>
 <p>We will use 10.0.0.0/16.</p>
-<p><img src="https://labs.amaranthos.io/articles/build-from-nothing/network/calc-subnet.png" alt="network numbers" /></p>
+<p><img src="https://labs.amaranthos.io/articles/build-from-nothing/network/../calc-subnet.png" alt="network numbers" /></p>
 <p>This means numbers on a numberline from 167,772,160 to 167,837,695 is reserved for this space. We can represent these numbers in several ways as shown above.</p>
 <p>Now we need to cut these numbers into 8 sections of 8192 numbers each.</p>
-<p><img src="https://labs.amaranthos.io/articles/build-from-nothing/network/subnets-8.png" alt="subnets" />
+<p><img src="https://labs.amaranthos.io/articles/build-from-nothing/network/../subnets-8.png" alt="subnets" />
 This gives us 8 ranges which will plug into our router to handle traffic between the networks.</p>
-<p>Here is a basic hardware topology</p>
-<p><img src="https://labs.amaranthos.io/articles/build-from-nothing/network/basic-net-topology.png" alt="network topology" /></p>
-<p>This allows us to plug up to 8 switches into the router. This methodology provides a clean separation between the networks, while keeping it easier to understand the topology. We could do the same with other equipment, this is our sample topology.</p>
+<p>Here is a basic hardware topology:</p>
+<p><img src="https://labs.amaranthos.io/articles/build-from-nothing/network/../basic-net-topology.png" alt="network topology" /></p>
+<p>This allows us to plug up to 8 switches/meshes into the router. This methodology provides a clean separation between the networks, while keeping it easier to understand the topology. </p>
+<h6 id="note-we-could-do-the-same-with-other-equipment-this-is-our-sample-topology">note: We could do the same with other equipment, this is our sample topology.</h6>
+<p>for the chosen Ubiquiti Dream Machine, here is our result:
+<img src="https://labs.amaranthos.io/articles/build-from-nothing/network/../applied-networks.png" alt="applied network" /></p>
+<p>infrastructure is our first to configure.</p>
 
 </div>
 

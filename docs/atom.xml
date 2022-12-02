@@ -8,6 +8,14 @@
 	<updated>2022-10-05T00:00:00+00:00</updated>
 	<id>https://labs.amaranthos.io/atom.xml</id>
 	<entry xml:lang="en">
+		<title>Compute</title>
+		<published>2022-10-05T00:00:00+00:00</published>
+		<updated>2022-10-05T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://labs.amaranthos.io/articles/build-from-nothing/compute/" type="text/html"/>
+		<id>https://labs.amaranthos.io/articles/build-from-nothing/compute/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
 		<title>Network</title>
 		<published>2022-10-05T00:00:00+00:00</published>
 		<updated>2022-10-05T00:00:00+00:00</updated>
@@ -18,16 +26,56 @@
 &lt;p&gt;in other words, it is a section of number line that we can define and assign a few special attributes to the range.&lt;&#x2F;p&gt;
 &lt;p&gt;See &lt;a href=&quot;&#x2F;articles&#x2F;networking-explained&quot;&gt;Networking Explained&lt;&#x2F;a&gt; for more details.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;define-the-ranges&quot;&gt;Define the ranges&lt;&#x2F;h3&gt;
+&lt;p&gt;We will use a Class A private address space according to &lt;a href=&quot;https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc1918&quot;&gt;ietf rfc1918&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;For our example let&#x27;s start with a big range because we will be subnetting through &lt;a href=&quot;&#x2F;library&#x2F;bridges&quot;&gt;bridges&lt;&#x2F;a&gt; in our &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;cim&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;We will use 10.0.0.0&#x2F;16.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;articles&#x2F;build-from-nothing&#x2F;network&#x2F;calc-subnet.png&quot; alt=&quot;network numbers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;articles&#x2F;build-from-nothing&#x2F;network&#x2F;..&#x2F;calc-subnet.png&quot; alt=&quot;network numbers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;This means numbers on a numberline from 167,772,160 to 167,837,695 is reserved for this space. We can represent these numbers in several ways as shown above.&lt;&#x2F;p&gt;
 &lt;p&gt;Now we need to cut these numbers into 8 sections of 8192 numbers each.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;articles&#x2F;build-from-nothing&#x2F;network&#x2F;subnets-8.png&quot; alt=&quot;subnets&quot; &#x2F;&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;articles&#x2F;build-from-nothing&#x2F;network&#x2F;..&#x2F;subnets-8.png&quot; alt=&quot;subnets&quot; &#x2F;&gt;
 This gives us 8 ranges which will plug into our router to handle traffic between the networks.&lt;&#x2F;p&gt;
-&lt;p&gt;Here is a basic hardware topology&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;articles&#x2F;build-from-nothing&#x2F;network&#x2F;basic-net-topology.png&quot; alt=&quot;network topology&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;This allows us to plug up to 8 switches into the router. This methodology provides a clean separation between the networks, while keeping it easier to understand the topology. We could do the same with other equipment, this is our sample topology.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is a basic hardware topology:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;articles&#x2F;build-from-nothing&#x2F;network&#x2F;..&#x2F;basic-net-topology.png&quot; alt=&quot;network topology&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This allows us to plug up to 8 switches&#x2F;meshes into the router. This methodology provides a clean separation between the networks, while keeping it easier to understand the topology. &lt;&#x2F;p&gt;
+&lt;h6 id=&quot;note-we-could-do-the-same-with-other-equipment-this-is-our-sample-topology&quot;&gt;note: We could do the same with other equipment, this is our sample topology.&lt;&#x2F;h6&gt;
+&lt;p&gt;for the chosen Ubiquiti Dream Machine, here is our result:
+&lt;img src=&quot;https:&#x2F;&#x2F;labs.amaranthos.io&#x2F;articles&#x2F;build-from-nothing&#x2F;network&#x2F;..&#x2F;applied-networks.png&quot; alt=&quot;applied network&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;infrastructure is our first to configure.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Storage</title>
+		<published>2022-10-05T00:00:00+00:00</published>
+		<updated>2022-10-05T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://labs.amaranthos.io/articles/build-from-nothing/storage/" type="text/html"/>
+		<id>https://labs.amaranthos.io/articles/build-from-nothing/storage/</id>
+		<content type="html">&lt;p&gt;Storage is handled in multiple levels. Most of them will appear transparently to the user.&lt;&#x2F;p&gt;
+&lt;p&gt;Ultimately we are storing everything at a block level.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;These blocks have a relationship.&lt;&#x2F;li&gt;
+&lt;li&gt;We know what the blocks hold via &lt;a href=&quot;&#x2F;library&#x2F;ipld&quot;&gt;IPLD&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;We sequence the blocks with a merkleDAG&lt;&#x2F;li&gt;
+&lt;li&gt;The graph is traversable with a topology, making it a &lt;a href=&quot;&#x2F;library&#x2F;topologies&quot;&gt;topological space&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We have several interfaces to these blocks.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;File System
+&lt;ul&gt;
+&lt;li&gt;what we normally think of in desktop computing&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Object Storage
+&lt;ul&gt;
+&lt;li&gt;similar to AWS S3, in fact it has the same API&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;IPFS
+&lt;ul&gt;
+&lt;li&gt;Content-addressable storage&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;There will be others, but we will define all these first.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -216,7 +264,9 @@ We need to define the way WE see the universe.&lt;&#x2F;p&gt;
 - Define our processes 
 - &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;events&quot;&gt;events&lt;&#x2F;a&gt; are the language of business.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;p&gt;We will now bridge these two &lt;a href=&quot;&#x2F;library&#x2F;domain&quot;&gt;domains&lt;&#x2F;a&gt; and form a &lt;a href=&quot;&#x2F;library&#x2F;bounded-context&quot;&gt;bounded context&lt;&#x2F;a&gt;. This context allows us to bridge the technicalities between these two domain and help them to understand each other.&lt;&#x2F;p&gt;
+&lt;p&gt;We will bridge these two &lt;a href=&quot;&#x2F;library&#x2F;domain&quot;&gt;domains&lt;&#x2F;a&gt; and form a &lt;a href=&quot;&#x2F;library&#x2F;bounded-context&quot;&gt;bounded context&lt;&#x2F;a&gt;. This context allows us to bridge the technicalities between these two domain and help them to understand each other.&lt;&#x2F;p&gt;
+&lt;p&gt;First we need to set up our initial configuration. We will do this on the development path.&lt;&#x2F;p&gt;
+&lt;p&gt;This requires some hardware and software.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
 &lt;hr &#x2F;&gt;
