@@ -21,8 +21,11 @@ There are two distinct path we now have to take:
     - Define our processes 
     - [n8n](/library/n8n) and [events](/library/events) are the language of business.
 
-We will now bridge these two [domains](/library/domain) and form a [bounded context](/library/bounded-context). This context allows us to bridge the technicalities between these two domain and help them to understand each other.
+We will bridge these two [domains](/library/domain) and form a [bounded context](/library/bounded-context). This context allows us to bridge the technicalities between these two domain and help them to understand each other.
 
+First we need to set up our initial configuration. We will do this on the development path.
+
+This requires some hardware and software.
 
 
 

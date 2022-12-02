@@ -28,11 +28,11 @@ In [Event Sourcing](/library/event-sourcing) you may start looking at [Events](/
 
 For a `data center`, we have 3 particular areas of convergence:
 
-  1. Network
-  2. Compute
-  3. Storage
+  1. [Network](network)
+  2. [Compute](compute)
+  3. [Storage](storage)
 
-These 3 areas form the fundamental idea of a `center for information access` and [data center infrastructure management](/library/dcim), they form the [Bounded Contexts](/library/bounded-context) of [infrastructure](/library/infrastructure). While we may have been taught to think of these ideas as `classes`, to the [composable information machine](/library/cim) they are simply [boundaries](/library/boundaries). For us, their definition is also an [axiom](/library/axiom), something we defined and accept without further proof. These end up as [Things](/library/things) as defined below and also lead us later into a [proof](/library/proof) system.
+These 3 areas form the fundamental idea of a `center for information access` and [data center infrastructure management](/library/dcim), they form the [Bounded Contexts](/library/bounded-context) of [infrastructure](/library/infrastructure). While we may have been taught to think of these ideas as `classes`, to the [composable information machine](/library/cim) they are simply [boundaries](/library/boundaries). For us, their definition is also an [axiom](/library/axiom), something we define and accept without further proof. These end up as [Things](/library/things) as defined below and lead us later into a [proof](/library/proof) system.
 
 In a [Composable Information Machine](/library/cim), we have 3 base abstractions:
 
